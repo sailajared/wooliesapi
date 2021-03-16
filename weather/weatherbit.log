@@ -1,0 +1,13 @@
+16 Mar 2021 21:52:13  INFO DefaultTestBedSetupImplementer:37 main - -----------Start Of Test------------
+16 Mar 2021 21:52:13  INFO CommonUtil:23 main - mondaysRange..[2021-03-22, 2021-03-29, 2021-04-05, 2021-04-12, 2021-04-19, 2021-04-26, 2021-05-03, 2021-05-10, 2021-05-17, 2021-05-24, 2021-05-31, 2021-06-07, 2021-06-14]
+16 Mar 2021 21:52:13  INFO CommonUtil:24 main - fridaysRange..[2021-03-19, 2021-03-26, 2021-04-02, 2021-04-09, 2021-04-16, 2021-04-23, 2021-04-30, 2021-05-07, 2021-05-14, 2021-05-21, 2021-05-28, 2021-06-04, 2021-06-11]
+16 Mar 2021 21:52:15  INFO WeatherbitAPITests:70 main - Best Suitable Spot:  ST GEORGE
+16 Mar 2021 21:52:15  INFO WeatherbitAPITests:71 main - Lonitude:  151.1167
+16 Mar 2021 21:52:15  INFO WeatherbitAPITests:72 main - Latitude:  -33.9833
+16 Mar 2021 21:52:15  INFO WeatherbitAPITests:73 main - Suitable Temp.. Wind.. UV and Date is     :2021-03-26
+16 Mar 2021 21:52:15  INFO WeatherbitAPITests:74 main - **************************************************************
+16 Mar 2021 21:52:17  INFO WeatherbitAPITests:70 main - Best Suitable Spot:  BONDI
+16 Mar 2021 21:52:17  INFO WeatherbitAPITests:71 main - Lonitude:  151.25
+16 Mar 2021 21:52:17  INFO WeatherbitAPITests:72 main - Latitude:  -33.8667
+16 Mar 2021 21:52:17  INFO WeatherbitAPITests:73 main - Suitable Temp.. Wind.. UV and Date is     :2021-03-26
+16 Mar 2021 21:52:17  INFO WeatherbitAPITests:74 main - **************************************************************

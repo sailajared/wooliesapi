@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-weatherbit">
+              <span class="suite-name border-passed">weatherbit</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-weatherbit">
+                    <span>WEATHERBIT_API_Regression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-weatherbit">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-weatherbit">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-weatherbit">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-weatherbit">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-weatherbit">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-weatherbit">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-weatherbit" class="hide-methods passed suite-weatherbit"> (hide)</a> <!-- hide-methods passed suite-weatherbit -->
+                      <a href="#" panel-name="suite-weatherbit" class="show-methods passed suite-weatherbit"> (show)</a> <!-- show-methods passed suite-weatherbit -->
+                    </span>
+                    <div class="method-list-content passed suite-weatherbit">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-weatherbit" title="www.weatherbit.Test.WeatherbitAPITests" hash-for-method="listSuitableSpots">listSuitableSpots</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-weatherbit -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-weatherbit" class="panel weatherbit">
+          <div class="suite-weatherbit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">www.weatherbit.Test.WeatherbitAPITests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="listSuitableSpots">
+                  </a> <!-- listSuitableSpots -->
+                  <span class="method-name">listSuitableSpots</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-weatherbit-class-passed -->
+        </div> <!-- panel weatherbit -->
+        <div panel-name="test-xml-weatherbit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/sailajareddy/Documents/TestAutomation/weather/src/test/resources/xml_Suites/WEATHERBIT_API_Regression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;weatherbit&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;APITests_SET1&quot;&gt;
+    &lt;parameter name=&quot;apiUrl&quot; value=&quot;http://api.weatherbit.io/v2.0&quot;/&gt;
+    &lt;parameter name=&quot;basePath&quot; value=&quot;/forecast/daily&quot;/&gt;
+    &lt;parameter name=&quot;testDataFile&quot; value=&quot;weatherdataSet_API.csv&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;SUITABLE_SPOTS&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;www.weatherbit.Test.WeatherbitAPITests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- APITests_SET1 --&gt;
+&lt;/suite&gt; &lt;!-- weatherbit --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-weatherbit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for weatherbit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">APITests_SET1 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-weatherbit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for weatherbit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">REGRESSION</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">listSuitableSpots</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">SUITABLE_SPOTS</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">listSuitableSpots</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-weatherbit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for weatherbit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_weatherbit');
+function tableData_weatherbit() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'listSuitableSpots')
+data.setCell(0, 2, 'www.weatherbit.Test.WeatherbitAPITests')
+data.setCell(0, 3, 3457);
+window.suiteTableData['weatherbit']= { tableData: data, tableDiv: 'times-div-weatherbit'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-weatherbit">
+              </div> <!-- times-div-weatherbit -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-weatherbit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for weatherbit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">listSuitableSpots</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">EndPoint URL---http://api.weatherbit.io/v2.0/forecast/daily?postal_code=2217&Key=885e8ae77a404573a0e57688704e5d06</span>
+                <span class="reporter-method-output">JSON Response Iteration[10]---{"data":[{"moonrise_ts":1615846459,"wind_cdir":"SSE","rh":73,"pres":1014.8889,"high_temp":22.1,"sunset_ts":1615882646,"ozone":262.375,"moon_phase":0.0840669,"wind_gust_spd":9.8125,"snow_depth":0,"clouds":76,"ts":1615813260,"sunrise_ts":1615838362,"app_min_temp":14.4,"wind_spd":3.9642918,"pop":45,"wind_cdir_full":"south-southeast","slp":1024.1111,"moon_phase_lunation":0.09,"valid_date":"2021-03-16","app_max_temp":22,"vis":21.572445,"dewpt":14.1,"snow":0,"uv":0.50941736,"weather":{"icon":"c04d","code":804,"description":"Overcast clouds"},"wind_dir":167,"max_dhi":null,"clouds_hi":18,"precip":2.6875,"low_temp":16.1,"max_temp":22.5,"moonset_ts":1615888506,"datetime":"2021-03-16","temp":19.1,"min_temp":14.1,"clouds_mid":0,"clouds_low":70},{"moonrise_ts":1615936236,"wind_cdir":"SE","rh":77,"pres":1015.2917,"high_temp":21.8,"sunset_ts":1615968963,"ozone":263.6979,"moon_phase":0.144931,"wind_gust_spd":8.796875,"snow_depth":0,"clouds":100,"ts":1615899660,"sunrise_ts":1615924812,"app_min_temp":16.1,"wind_spd":3.7457383,"pop":60,"wind_cdir_full":"southeast","slp":1024.5416,"moon_phase_lunation":0.12,"valid_date":"2021-03-17","app_max_temp":21.6,"vis":21.128666,"dewpt":14,"snow":0,"uv":2.5584755,"weather":{"icon":"c04d","code":804,"description":"Overcast clouds"},"wind_dir":132,"max_dhi":null,"clouds_hi":90,"precip":4.5,"low_temp":17,"max_temp":22.1,"moonset_ts":1615976554,"datetime":"2021-03-17","temp":18.3,"min_temp":15.9,"clouds_mid":44,"clouds_low":52},{"moonrise_ts":1616022636,"wind_cdir":"ESE","rh":78,"pres":1015.0833,"high_temp":21.3,"sunset_ts":1616055279,"ozone":271.5,"moon_phase":0.218609,"wind_gust_spd":9.515625,"snow_depth":0,"clouds":100,"ts":1615986060,"sunrise_ts":1616011261,"app_min_temp":17.7,"wind_spd":3.9409583,"pop":65,"wind_cdir_full":"east-southeast","slp":1024.375,"moon_phase_lunation":0.15,"valid_date":"2021-03-18","app_max_temp":21.2,"vis":21.307667,"dewpt":15.2,"snow":0,"uv":2.4694567,"weather":{"icon":"t02d","code":201,"description":"Thunderstorm with rain"},"wind_dir":120,"max_dhi":null,"clouds_hi":100,"precip":5.5625,"low_temp":17.7,"max_temp":21.3,"moonset_ts":1616064742,"datetime":"2021-03-18","temp":19.3,"min_temp":17.6,"clouds_mid":99,"clouds_low":14},{"moonrise_ts":1616112431,"wind_cdir":"ESE","rh":79,"pres":1015.1875,"high_temp":22.4,"sunset_ts":1616141595,"ozone":269.3646,"moon_phase":0.302738,"wind_gust_spd":10.921875,"snow_depth":0,"clouds":100,"ts":1616072460,"sunrise_ts":1616097710,"app_min_temp":17.7,"wind_spd":4.875709,"pop":85,"wind_cdir_full":"east-southeast","slp":1024.3125,"moon_phase_lunation":0.19,"valid_date":"2021-03-19","app_max_temp":22.4,"vis":17.295834,"dewpt":15.8,"snow":0,"uv":2.4454646,"weather":{"icon":"t03d","code":202,"description":"Thunderstorm with heavy rain"},"wind_dir":118,"max_dhi":null,"clouds_hi":100,"precip":19.4375,"low_temp":18.2,"max_temp":22.5,"moonset_ts":1616153144,"datetime":"2021-03-19","temp":19.6,"min_temp":17.7,"clouds_mid":93,"clouds_low":47},{"moonrise_ts":1616202255,"wind_cdir":"ESE","rh":90,"pres":1013.6667,"high_temp":20.6,"sunset_ts":1616227911,"ozone":264.1875,"moon_phase":0.39505,"wind_gust_spd":14.6328125,"snow_depth":0,"clouds":100,"ts":1616158860,"sunrise_ts":1616184159,"app_min_temp":18.8,"wind_spd":5.8070517,"pop":95,"wind_cdir_full":"east-southeast","slp":1023,"moon_phase_lunation":0.22,"valid_date":"2021-03-20","app_max_temp":21,"vis":9.084917,"dewpt":17.7,"snow":0,"uv":2.4240234,"weather":{"icon":"t03d","code":202,"description":"Thunderstorm with heavy rain"},"wind_dir":109,"max_dhi":null,"clouds_hi":96,"precip":78.1875,"low_temp":19.1,"max_temp":21.1,"moonset_ts":1616241834,"datetime":"2021-03-20","temp":19.5,"min_temp":18.5,"clouds_mid":94,"clouds_low":88},{"moonrise_ts":1616292093,"wind_cdir":"ENE","rh":82,"pres":1015.625,"high_temp":23.7,"sunset_ts":1616314227,"ozone":259.95834,"moon_phase":0.493198,"wind_gust_spd":11.21875,"snow_depth":0,"clouds":100,"ts":1616245260,"sunrise_ts":1616270608,"app_min_temp":19.2,"wind_spd":4.3780212,"pop":80,"wind_cdir_full":"east-northeast","slp":1024.625,"moon_phase_lunation":0.26,"valid_date":"2021-03-21","app_max_temp":23.7,"vis":17.071667,"dewpt":17.1,"snow":0,"uv":2.2407007,"weather":{"icon":"t02d","code":201,"description":"Thunderstorm with rain"},"wind_dir":73,"max_dhi":null,"clouds_hi":99,"precip":12.625,"low_temp":17.3,"max_temp":24,"moonset_ts":1616330880,"datetime":"2021-03-21","temp":20.4,"min_temp":18.7,"clouds_mid":80,"clouds_low":80},{"moonrise_ts":1616381897,"wind_cdir":"E","rh":85,"pres":1011.5,"high_temp":25.1,"sunset_ts":1616400543,"ozone":257.96875,"moon_phase":0.59442,"wind_gust_spd":7.7109375,"snow_depth":0,"clouds":100,"ts":1616331660,"sunrise_ts":1616357056,"app_min_temp":17.3,"wind_spd":2.246559,"pop":80,"wind_cdir_full":"east","slp":1020.625,"moon_phase_lunation":0.29,"valid_date":"2021-03-22","app_max_temp":21.9,"vis":20.3475,"dewpt":16.2,"snow":0,"uv":2.215938,"weather":{"icon":"t02d","code":201,"description":"Thunderstorm with rain"},"wind_dir":91,"max_dhi":null,"clouds_hi":82,"precip":10.375,"low_temp":17.3,"max_temp":22.2,"moonset_ts":1616333920,"datetime":"2021-03-22","temp":18.9,"min_temp":17.2,"clouds_mid":92,"clouds_low":60},{"moonrise_ts":1616471587,"wind_cdir":"SE","rh":82,"pres":1003.5,"high_temp":24.5,"sunset_ts":1616486858,"ozone":262.0625,"moon_phase":0.695125,"wind_gust_spd":8.71875,"snow_depth":0,"clouds":60,"ts":1616418060,"sunrise_ts":1616443505,"app_min_temp":17.3,"wind_spd":2.5083373,"pop":80,"wind_cdir_full":"southeast","slp":1013.125,"moon_phase_lunation":0.32,"valid_date":"2021-03-23","app_max_temp":25.3,"vis":19.242,"dewpt":17,"snow":0,"uv":5.151273,"weather":{"icon":"t02d","code":201,"description":"Thunderstorm with rain"},"wind_dir":127,"max_dhi":null,"clouds_hi":0,"precip":12.625,"low_temp":16,"max_temp":25.8,"moonset_ts":1616423746,"datetime":"2021-03-23","temp":20.4,"min_temp":17.3,"clouds_mid":46,"clouds_low":57},{"moonrise_ts":1616561078,"wind_cdir":"SSW","rh":79,"pres":1000.875,"high_temp":20.1,"sunset_ts":1616573174,"ozone":264.1875,"moon_phase":0.790583,"wind_gust_spd":6.921875,"snow_depth":0,"clouds":6,"ts":1616504460,"sunrise_ts":1616529953,"app_min_temp":16,"wind_spd":2.682113,"pop":60,"wind_cdir_full":"south-southwest","slp":1010.1875,"moon_phase_lunation":0.36,"valid_date":"2021-03-24","app_max_temp":24.4,"vis":21.32,"dewpt":15.2,"snow":0,"uv":5.7113113,"weather":{"icon":"c02d","code":801,"description":"Few clouds"},"wind_dir":200,"max_dhi":null,"clouds_hi":0,"precip":4.0625,"low_temp":16.1,"max_temp":25.6,"moonset_ts":1616513894,"datetime":"2021-03-24","temp":19.3,"min_temp":15.3,"clouds_mid":0,"clouds_low":6},{"moonrise_ts":1616650306,"wind_cdir":"SSE","rh":78,"pres":1006.5625,"high_temp":25.3,"sunset_ts":1616659490,"ozone":278.8125,"moon_phase":0.874944,"wind_gust_spd":8.3125,"snow_depth":0,"clouds":59,"ts":1616590860,"sunrise_ts":1616616401,"app_min_temp":16.1,"wind_spd":3.8864634,"pop":50,"wind_cdir_full":"south-southeast","slp":1015.5,"moon_phase_lunation":0.39,"valid_date":"2021-03-25","app_max_temp":19.7,"vis":22.842,"dewpt":13.4,"snow":0,"uv":4.333047,"weather":{"icon":"c03d","code":803,"description":"Broken clouds"},"wind_dir":166,"max_dhi":null,"clouds_hi":1,"precip":3.1875,"low_temp":14,"max_temp":20.3,"moonset_ts":1616604267,"datetime":"2021-03-25","temp":17.6,"min_temp":15.6,"clouds_mid":0,"clouds_low":59},{"moonrise_ts":1616739254,"wind_cdir":"SSE","rh":73,"pres":1012.5,"high_temp":28.7,"sunset_ts":1616745806,"ozone":278.66666,"moon_phase":0.941691,"wind_gust_spd":7.9101562,"snow_depth":0,"clouds":59,"ts":1616677260,"sunrise_ts":1616702849,"app_min_temp":14.5,"wind_spd":3.1716707,"pop":10,"wind_cdir_full":"south-southeast","slp":1021.8333,"moon_phase_lunation":0.42,"valid_date":"2021-03-26","app_max_temp":19.4,"vis":24.128,"dewpt":11.8,"snow":0,"uv":1.9368821,"weather":{"icon":"c03d","code":803,"description":"Broken clouds"},"wind_dir":165,"max_dhi":null,"clouds_hi":0,"precip":0.375,"low_temp":16.4,"max_temp":21.4,"moonset_ts":1616694772,"datetime":"2021-03-26","temp":16.7,"min_temp":14,"clouds_mid":0,"clouds_low":59},{"moonrise_ts":1616827950,"wind_cdir":"S","rh":63,"pres":1011,"high_temp":22,"sunset_ts":1616832122,"ozone":267.125,"moon_phase":0.984508,"wind_gust_spd":4.8984375,"snow_depth":0,"clouds":24,"ts":1616763660,"sunrise_ts":1616789297,"app_min_temp":14,"wind_spd":2.9076135,"pop":0,"wind_cdir_full":"south","slp":1021,"moon_phase_lunation":0.46,"valid_date":"2021-03-27","app_max_temp":25,"vis":24.128,"dewpt":11.2,"snow":0,"uv":2.331967,"weather":{"icon":"c02d","code":802,"description":"Scattered clouds"},"wind_dir":184,"max_dhi":null,"clouds_hi":22,"precip":0,"low_temp":18.4,"max_temp":26.6,"moonset_ts":1616785350,"datetime":"2021-03-27","temp":19.7,"min_temp":14,"clouds_mid":0,"clouds_low":2},{"moonrise_ts":1616916455,"wind_cdir":"SSW","rh":65,"pres":1008.5,"high_temp":25.6,"sunset_ts":1616918438,"ozone":267,"moon_phase":0.998384,"wind_gust_spd":3.84375,"snow_depth":0,"clouds":100,"ts":1616850060,"sunrise_ts":1616875744,"app_min_temp":16.1,"wind_spd":2.3300812,"pop":20,"wind_cdir_full":"south-southwest","slp":1018.5,"moon_phase_lunation":0.49,"valid_date":"2021-03-28","app_max_temp":22.8,"vis":24.128,"dewpt":12.5,"snow":0,"uv":0.7092934,"weather":{"icon":"c04d","code":804,"description":"Overcast clouds"},"wind_dir":204,"max_dhi":null,"clouds_hi":84,"precip":0.0625,"low_temp":16.9,"max_temp":28.4,"moonset_ts":1616875982,"datetime":"2021-03-28","temp":19.6,"min_temp":16.1,"clouds_mid":8,"clouds_low":26},{"moonrise_ts":1617004848,"wind_cdir":"S","rh":57,"pres":1008.25,"high_temp":30.3,"sunset_ts":1617004754,"ozone":269,"moon_phase":0.98069,"wind_gust_spd":3.4179688,"snow_depth":0,"clouds":22,"ts":1616936460,"sunrise_ts":1616962192,"app_min_temp":16.4,"wind_spd":1.6885195,"pop":0,"wind_cdir_full":"south","slp":1018.25,"moon_phase_lunation":0.52,"valid_date":"2021-03-29","app_max_temp":27.9,"vis":24.128,"dewpt":12.2,"snow":0,"uv":2.2870355,"weather":{"icon":"c02d","code":802,"description":"Scattered clouds"},"wind_dir":177,"max_dhi":null,"clouds_hi":22,"precip":0,"low_temp":18.2,"max_temp":30.3,"moonset_ts":1616966675,"datetime":"2021-03-29","temp":22.6,"min_temp":16.4,"clouds_mid":0,"clouds_low":0},{"moonrise_ts":1617093216,"wind_cdir":"SE","rh":76,"pres":1012.25,"high_temp":23.8,"sunset_ts":1617091071,"ozone":261.375,"moon_phase":0.931896,"wind_gust_spd":8.3984375,"snow_depth":0,"clouds":18,"ts":1617022860,"sunrise_ts":1617048639,"app_min_temp":19.6,"wind_spd":3.6484513,"pop":0,"wind_cdir_full":"southeast","slp":1021.5,"moon_phase_lunation":0.56,"valid_date":"2021-03-30","app_max_temp":22.1,"vis":24.128,"dewpt":16.2,"snow":0,"uv":1.7529783,"weather":{"icon":"c02d","code":801,"description":"Few clouds"},"wind_dir":142,"max_dhi":null,"clouds_hi":13,"precip":0,"low_temp":18.3,"max_temp":23.8,"moonset_ts":1617057436,"datetime":"2021-03-30","temp":20.7,"min_temp":18.3,"clouds_mid":0,"clouds_low":6},{"moonrise_ts":1617181652,"wind_cdir":"S","rh":68,"pres":1012.25,"high_temp":28,"sunset_ts":1617177387,"ozone":255.625,"moon_phase":0.855704,"wind_gust_spd":6.03125,"snow_depth":0,"clouds":42,"ts":1617109260,"sunrise_ts":1617135087,"app_min_temp":18.5,"wind_spd":2.579424,"pop":0,"wind_cdir_full":"south","slp":1021.5,"moon_phase_lunation":0.59,"valid_date":"2021-03-31","app_max_temp":25.6,"vis":24.128,"dewpt":15.3,"snow":0,"uv":2.2632375,"weather":{"icon":"c03d","code":803,"description":"Broken clouds"},"wind_dir":175,"max_dhi":null,"clouds_hi":0,"precip":0,"low_temp":16.9,"max_temp":28,"moonset_ts":1617148238,"datetime":"2021-03-31","temp":22,"min_temp":16.9,"clouds_mid":0,"clouds_low":42}],"city_name":"ST GEORGE","lon":"151.1167","timezone":"Australia\/Sydney","lat":"-33.9833","country_code":"AU","state_code":"NSW"}
+</span>
+                <span class="reporter-method-output">EndPoint URL---http://api.weatherbit.io/v2.0/forecast/daily?postal_code=2174&Key=885e8ae77a404573a0e57688704e5d06</span>
+                <span class="reporter-method-output">EndPoint URL---http://api.weatherbit.io/v2.0/forecast/daily?postal_code=2027&Key=885e8ae77a404573a0e57688704e5d06</span>
+                <span class="reporter-method-output">JSON Response Iteration[10]---{"data":[{"moonrise_ts":1615846459,"wind_cdir":"S","rh":75,"pres":1016.92,"high_temp":21.6,"sunset_ts":1615882646,"ozone":262.597,"moon_phase":0.0840669,"wind_gust_spd":9.41406,"snow_depth":0,"clouds":85,"ts":1615813260,"sunrise_ts":1615838362,"app_min_temp":16.1,"wind_spd":4.66994,"pop":55,"wind_cdir_full":"south","slp":1024,"moon_phase_lunation":0.09,"valid_date":"2021-03-16","app_max_temp":21.7,"vis":19.7662,"dewpt":14.9,"snow":0,"uv":0.619388,"weather":{"icon":"c04d","code":804,"description":"Overcast clouds"},"wind_dir":178,"max_dhi":null,"clouds_hi":15,"precip":3.75,"low_temp":17.4,"max_temp":21.9,"moonset_ts":1615888506,"datetime":"2021-03-16","temp":19.4,"min_temp":15.6,"clouds_mid":0,"clouds_low":83},{"moonrise_ts":1615936236,"wind_cdir":"ESE","rh":77,"pres":1017.35,"high_temp":21.4,"sunset_ts":1615968963,"ozone":263.573,"moon_phase":0.144931,"wind_gust_spd":9,"snow_depth":0,"clouds":100,"ts":1615899660,"sunrise_ts":1615924812,"app_min_temp":17.4,"wind_spd":5.03953,"pop":70,"wind_cdir_full":"east-southeast","slp":1024.19,"moon_phase_lunation":0.12,"valid_date":"2021-03-17","app_max_temp":21.3,"vis":18.865,"dewpt":14.8,"snow":0,"uv":2.50894,"weather":{"icon":"t02d","code":201,"description":"Thunderstorm with rain"},"wind_dir":122,"max_dhi":null,"clouds_hi":90,"precip":6.8125,"low_temp":18,"max_temp":21.7,"moonset_ts":1615976554,"datetime":"2021-03-17","temp":19,"min_temp":17.3,"clouds_mid":38,"clouds_low":62},{"moonrise_ts":1616022636,"wind_cdir":"ESE","rh":80,"pres":1017.19,"high_temp":21,"sunset_ts":1616055279,"ozone":271.656,"moon_phase":0.218609,"wind_gust_spd":10.4141,"snow_depth":0,"clouds":100,"ts":1615986060,"sunrise_ts":1616011261,"app_min_temp":18.6,"wind_spd":5.05502,"pop":80,"wind_cdir_full":"east-southeast","slp":1023.94,"moon_phase_lunation":0.15,"valid_date":"2021-03-18","app_max_temp":21,"vis":17.5483,"dewpt":16,"snow":0,"uv":2.47649,"weather":{"icon":"t02d","code":201,"description":"Thunderstorm with rain"},"wind_dir":116,"max_dhi":null,"clouds_hi":96,"precip":12.875,"low_temp":18.5,"max_temp":21.1,"moonset_ts":1616064742,"datetime":"2021-03-18","temp":19.5,"min_temp":18.4,"clouds_mid":99,"clouds_low":18},{"moonrise_ts":1616112431,"wind_cdir":"ESE","rh":84,"pres":1017.02,"high_temp":20.7,"sunset_ts":1616141595,"ozone":268.698,"moon_phase":0.302738,"wind_gust_spd":11.1016,"snow_depth":0,"clouds":100,"ts":1616072460,"sunrise_ts":1616097710,"app_min_temp":18.7,"wind_spd":6.01858,"pop":90,"wind_cdir_full":"east-southeast","slp":1023.9,"moon_phase_lunation":0.19,"valid_date":"2021-03-19","app_max_temp":20.9,"vis":11.7218,"dewpt":16.8,"snow":0,"uv":2.45239,"weather":{"icon":"t03d","code":202,"description":"Thunderstorm with heavy rain"},"wind_dir":113,"max_dhi":null,"clouds_hi":100,"precip":32.5625,"low_temp":19.1,"max_temp":20.8,"moonset_ts":1616153144,"datetime":"2021-03-19","temp":19.7,"min_temp":18.5,"clouds_mid":99,"clouds_low":69},{"moonrise_ts":1616202255,"wind_cdir":"E","rh":90,"pres":1015.54,"high_temp":21.5,"sunset_ts":1616227911,"ozone":265.615,"moon_phase":0.39505,"wind_gust_spd":15.1328,"snow_depth":0,"clouds":100,"ts":1616158860,"sunrise_ts":1616184159,"app_min_temp":19.6,"wind_spd":7.64083,"pop":95,"wind_cdir_full":"east","slp":1022.44,"moon_phase_lunation":0.22,"valid_date":"2021-03-20","app_max_temp":22,"vis":8.362,"dewpt":18.5,"snow":0,"uv":2.48397,"weather":{"icon":"t03d","code":202,"description":"Thunderstorm with heavy rain"},"wind_dir":95,"max_dhi":null,"clouds_hi":87,"precip":69.8125,"low_temp":19.4,"max_temp":21.7,"moonset_ts":1616241834,"datetime":"2021-03-20","temp":20.2,"min_temp":18.9,"clouds_mid":90,"clouds_low":97},{"moonrise_ts":1616292093,"wind_cdir":"ENE","rh":82,"pres":1017.75,"high_temp":23.3,"sunset_ts":1616314227,"ozone":260.562,"moon_phase":0.493198,"wind_gust_spd":12.3203,"snow_depth":0,"clouds":100,"ts":1616245260,"sunrise_ts":1616270608,"app_min_temp":20.2,"wind_spd":6.45995,"pop":80,"wind_cdir_full":"east-northeast","slp":1024.54,"moon_phase_lunation":0.26,"valid_date":"2021-03-21","app_max_temp":23.4,"vis":16.6987,"dewpt":17.7,"snow":0,"uv":2.24448,"weather":{"icon":"t02d","code":201,"description":"Thunderstorm with rain"},"wind_dir":64,"max_dhi":null,"clouds_hi":99,"precip":12.3125,"low_temp":18.4,"max_temp":23.4,"moonset_ts":1616330880,"datetime":"2021-03-21","temp":20.9,"min_temp":19.5,"clouds_mid":73,"clouds_low":66},{"moonrise_ts":1616381897,"wind_cdir":"ENE","rh":82,"pres":1013.75,"high_temp":23.7,"sunset_ts":1616400543,"ozone":258.125,"moon_phase":0.59442,"wind_gust_spd":9.82031,"snow_depth":0,"clouds":99,"ts":1616331660,"sunrise_ts":1616357056,"app_min_temp":18.7,"wind_spd":4.46643,"pop":70,"wind_cdir_full":"east-northeast","slp":1020.69,"moon_phase_lunation":0.29,"valid_date":"2021-03-22","app_max_temp":22.6,"vis":21.385,"dewpt":16.7,"snow":0,"uv":2.3696,"weather":{"icon":"t02d","code":201,"description":"Thunderstorm with rain"},"wind_dir":74,"max_dhi":null,"clouds_hi":86,"precip":7.8125,"low_temp":17.8,"max_temp":22.9,"moonset_ts":1616333920,"datetime":"2021-03-22","temp":20,"min_temp":18.3,"clouds_mid":80,"clouds_low":38},{"moonrise_ts":1616471587,"wind_cdir":"E","rh":85,"pres":1006.19,"high_temp":24,"sunset_ts":1616486858,"ozone":262.125,"moon_phase":0.695125,"wind_gust_spd":10.6172,"snow_depth":0,"clouds":63,"ts":1616418060,"sunrise_ts":1616443505,"app_min_temp":17.8,"wind_spd":3.99455,"pop":60,"wind_cdir_full":"east","slp":1013.25,"moon_phase_lunation":0.32,"valid_date":"2021-03-23","app_max_temp":23.9,"vis":23.468,"dewpt":17.1,"snow":0,"uv":4.4798,"weather":{"icon":"c03d","code":803,"description":"Broken clouds"},"wind_dir":96,"max_dhi":null,"clouds_hi":0,"precip":4.0625,"low_temp":17.8,"max_temp":24,"moonset_ts":1616423746,"datetime":"2021-03-23","temp":19.7,"min_temp":17.8,"clouds_mid":52,"clouds_low":63},{"moonrise_ts":1616561078,"wind_cdir":"SSW","rh":77,"pres":1003.12,"high_temp":19.7,"sunset_ts":1616573174,"ozone":264.25,"moon_phase":0.790583,"wind_gust_spd":6.92188,"snow_depth":0,"clouds":3,"ts":1616504460,"sunrise_ts":1616529953,"app_min_temp":17.8,"wind_spd":3.35447,"pop":45,"wind_cdir_full":"south-southwest","slp":1010.12,"moon_phase_lunation":0.36,"valid_date":"2021-03-24","app_max_temp":24,"vis":22.802,"dewpt":15.7,"snow":0,"uv":6.78526,"weather":{"icon":"c02d","code":801,"description":"Few clouds"},"wind_dir":200,"max_dhi":null,"clouds_hi":2,"precip":2.3125,"low_temp":17.3,"max_temp":24.3,"moonset_ts":1616513894,"datetime":"2021-03-24","temp":20.1,"min_temp":17,"clouds_mid":0,"clouds_low":0},{"moonrise_ts":1616650306,"wind_cdir":"S","rh":79,"pres":1008.62,"high_temp":23.5,"sunset_ts":1616659490,"ozone":278.906,"moon_phase":0.874944,"wind_gust_spd":9.21875,"snow_depth":0,"clouds":63,"ts":1616590860,"sunrise_ts":1616616401,"app_min_temp":17.3,"wind_spd":5.06015,"pop":85,"wind_cdir_full":"south","slp":1015.38,"moon_phase_lunation":0.39,"valid_date":"2021-03-25","app_max_temp":19.5,"vis":22.68,"dewpt":14.4,"snow":0,"uv":2.97319,"weather":{"icon":"r01d","code":500,"description":"Light rain"},"wind_dir":173,"max_dhi":null,"clouds_hi":0,"precip":6.0625,"low_temp":14.4,"max_temp":19.9,"moonset_ts":1616604267,"datetime":"2021-03-25","temp":18.1,"min_temp":16.3,"clouds_mid":0,"clouds_low":63},{"moonrise_ts":1616739254,"wind_cdir":"SSE","rh":73,"pres":1014.67,"high_temp":24,"sunset_ts":1616745806,"ozone":279.167,"moon_phase":0.941691,"wind_gust_spd":7.91016,"snow_depth":0,"clouds":64,"ts":1616677260,"sunrise_ts":1616702849,"app_min_temp":16.1,"wind_spd":3.78739,"pop":25,"wind_cdir_full":"south-southeast","slp":1021.67,"moon_phase_lunation":0.42,"valid_date":"2021-03-26","app_max_temp":19.2,"vis":24.128,"dewpt":12.4,"snow":0,"uv":1.58074,"weather":{"icon":"c03d","code":803,"description":"Broken clouds"},"wind_dir":159,"max_dhi":null,"clouds_hi":3,"precip":1.0625,"low_temp":17.6,"max_temp":20.2,"moonset_ts":1616694772,"datetime":"2021-03-26","temp":17.3,"min_temp":14.2,"clouds_mid":0,"clouds_low":64},{"moonrise_ts":1616827950,"wind_cdir":"S","rh":75,"pres":1014,"high_temp":21.5,"sunset_ts":1616832122,"ozone":267.25,"moon_phase":0.984508,"wind_gust_spd":8.19531,"snow_depth":0,"clouds":20,"ts":1616763660,"sunrise_ts":1616789297,"app_min_temp":14.4,"wind_spd":4.17895,"pop":0,"wind_cdir_full":"south","slp":1021,"moon_phase_lunation":0.46,"valid_date":"2021-03-27","app_max_temp":21.7,"vis":24.128,"dewpt":13.3,"snow":0,"uv":2.33144,"weather":{"icon":"c02d","code":801,"description":"Few clouds"},"wind_dir":180,"max_dhi":null,"clouds_hi":18,"precip":0,"low_temp":19.4,"max_temp":23.2,"moonset_ts":1616785350,"datetime":"2021-03-27","temp":18.1,"min_temp":14.4,"clouds_mid":0,"clouds_low":1},{"moonrise_ts":1616916455,"wind_cdir":"S","rh":69,"pres":1011.25,"high_temp":22.8,"sunset_ts":1616918438,"ozone":266.5,"moon_phase":0.998384,"wind_gust_spd":4.14453,"snow_depth":0,"clouds":95,"ts":1616850060,"sunrise_ts":1616875744,"app_min_temp":16.5,"wind_spd":2.25788,"pop":0,"wind_cdir_full":"south","slp":1018.5,"moon_phase_lunation":0.49,"valid_date":"2021-03-28","app_max_temp":23.5,"vis":24.128,"dewpt":14.1,"snow":0,"uv":0.867748,"weather":{"icon":"c04d","code":804,"description":"Overcast clouds"},"wind_dir":177,"max_dhi":null,"clouds_hi":90,"precip":0,"low_temp":17.6,"max_temp":27.1,"moonset_ts":1616875982,"datetime":"2021-03-28","temp":20,"min_temp":16.5,"clouds_mid":0,"clouds_low":9},{"moonrise_ts":1617004848,"wind_cdir":"SSE","rh":71,"pres":1011.25,"high_temp":27.6,"sunset_ts":1617004754,"ozone":269.125,"moon_phase":0.98069,"wind_gust_spd":6.01953,"snow_depth":0,"clouds":6,"ts":1616936460,"sunrise_ts":1616962192,"app_min_temp":17.6,"wind_spd":3.24988,"pop":0,"wind_cdir_full":"south-southeast","slp":1018.25,"moon_phase_lunation":0.52,"valid_date":"2021-03-29","app_max_temp":24.1,"vis":24.128,"dewpt":15.2,"snow":0,"uv":2.28727,"weather":{"icon":"c02d","code":801,"description":"Few clouds"},"wind_dir":167,"max_dhi":null,"clouds_hi":6,"precip":0,"low_temp":19.1,"max_temp":27.6,"moonset_ts":1616966675,"datetime":"2021-03-29","temp":20.8,"min_temp":17.6,"clouds_mid":0,"clouds_low":0},{"moonrise_ts":1617093216,"wind_cdir":"S","rh":72,"pres":1014.5,"high_temp":22.7,"sunset_ts":1617091071,"ozone":261.5,"moon_phase":0.931896,"wind_gust_spd":4.54297,"snow_depth":0,"clouds":32,"ts":1617022860,"sunrise_ts":1617048639,"app_min_temp":19.1,"wind_spd":3.2068,"pop":0,"wind_cdir_full":"south","slp":1021.5,"moon_phase_lunation":0.56,"valid_date":"2021-03-30","app_max_temp":21.7,"vis":24.128,"dewpt":15.3,"snow":0,"uv":1.25126,"weather":{"icon":"c02d","code":802,"description":"Scattered clouds"},"wind_dir":174,"max_dhi":null,"clouds_hi":18,"precip":0,"low_temp":19.3,"max_temp":22.7,"moonset_ts":1617057436,"datetime":"2021-03-30","temp":20.4,"min_temp":19.2,"clouds_mid":0,"clouds_low":22},{"moonrise_ts":1617181652,"wind_cdir":"ENE","rh":74,"pres":1015,"high_temp":24.3,"sunset_ts":1617177387,"ozone":255.125,"moon_phase":0.855704,"wind_gust_spd":7.53125,"snow_depth":0,"clouds":47,"ts":1617109260,"sunrise_ts":1617135087,"app_min_temp":19.5,"wind_spd":2.6847,"pop":0,"wind_cdir_full":"east-northeast","slp":1021.5,"moon_phase_lunation":0.59,"valid_date":"2021-03-31","app_max_temp":23,"vis":24.128,"dewpt":16.2,"snow":0,"uv":2.26733,"weather":{"icon":"c03d","code":803,"description":"Broken clouds"},"wind_dir":77,"max_dhi":null,"clouds_hi":0,"precip":0,"low_temp":17.3,"max_temp":24.3,"moonset_ts":1617148238,"datetime":"2021-03-31","temp":21.1,"min_temp":17.3,"clouds_mid":0,"clouds_low":47}],"city_name":"BONDI","lon":"151.25","timezone":"Australia\/Sydney","lat":"-33.8667","country_code":"AU","state_code":"NSW"}
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-weatherbit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-weatherbit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">www.weatherbit.Test.WeatherbitAPITests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getParamsFromXML(http://api.weatherbit.io/v2.0, /forecast/daily, weatherdataSet_API.csv)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">listSuitableSpots</span>
+                <span class="method-start">382 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
